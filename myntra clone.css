@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom: 1px solid #f5f1f1;
+}
+
+.myntralogo {
+    height: 50px;
+}
+
+.logo-container {
+    margin-left: 4%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 500px;
+
+}
+
+.nav {
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-size: 14px;
+    padding: 27px 0px;
+    border-bottom: 5px solid #ffffff;
+}
+
+.nav:hover {
+    border-bottom: 5px solid #f54e77;
+}
+
+.nav sup {
+    color: red;
+    font-size: 10px;
+}
+
+
+.searchbar {
+    height: 40px;
+    min-width: 300px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+
+.searchIcon {
+    box-sizing: content-box;
+    height: 17px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+    color: #696e79;
+    font-weight: 500px;
+}
+
+.SearchInput {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+
+
+.actionbar {
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 200px;
+}
+
+.actionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/* main section css */
+.banner {
+    margin: 15px 0px;
+}
+
+.bannerImg {
+    width: 100%;
+}
+
+.categoryHead {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: .04em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    color: #3e4152;
+}
+
+.categoryItem {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sale {
+    width: 270px;
+
+}
+
+
+
+/* footer css */
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFBFC;
+}
+
+.footerContainer {
+    padding: 30px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footerDetail {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerDetail h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footerDetail a {
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #696b79;
+}
+
+
+
+.copyright {
+    text-align: center;
+    padding: 15px;
+    color: #94969f;
+    font-size: 20px;
+}
